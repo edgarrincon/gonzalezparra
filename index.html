@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="ES.png" sizes="16x16" type="image/png">
+  <title>ECMAScript 6</title>
+</head>
+<body>
+  <div class="menu-container">
+  
+    <input type="checkbox" id="openmenu" class="hamburger-checkbox">
+    
+    <div class="hamburger-icon">
+      <label for="openmenu" id="hamburger-label">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>    
+    </div>
+  
+      <div class="menu-pane">
+        
+        <nav>
+            
+          <ul class="menu-links">
+
+                <li><a href="#What_is_ECMAScript_6?">What is ECMAScript 6?</a></li>
+                
+                                    
+                <li><a href="#Browser_Support_for_ES6">Browser Support for ES6</a></li>
+
+                <li>
+                    <a class="menu-links" href="#JavaScript_let">JavaScript let</a>
+                </li>
+                <li>
+                    <a class="menu-links" href="#JavaScript_const">JavaScript const</a>
+                </li>
+                <li>
+                    <a class="menu-links" href="#Arrow_Functions">Arrow Functions</a>
+                </li>
+                <li>
+                    <a class="menu-links" href="#Classes">Classes</a>
+                </li>
+                <li>
+                    <a class="menu-links" href="#Default_Parameter_Values">Default Parameter Values</a>
+                </li>
+                <li>
+                    <a class="menu-links" href="#Array.find()">Array.find()</a>
+                </li>
+                <li>
+                    <a class="menu-links" href="#Array.findIndex()">Array.findIndex()</a>
+                </li>
+                <li>
+                    <a class="menu-links" href="#New_Number_Methods">New Number Methods</a>
+                </li>
+                <li>
+                    <a class="menu-links" href="#New_Global_Methods">New Global Methods</a>
+                </li>
+                <li>
+                    <a class="menu-links" href="#Exponentiation_Operator">Exponentiation Operator</a>
+                </li>
+            </ul>
+          
+          
+        </nav>
+      </div>
+    <div id="navbar">
+
+        <h1>ECMAScript 6 Documentation</h1>
+
+    </div>
+
+  </div>
+    <div class="theme-switch-wrapper">
+        <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider round"></div>
+        </label>
+        
+    </div>
+  <main id="main-doc">
+   
+    
+    <p><strong>Disclaimer:</strong> All of the information below is provided from the <a rel="noopener" href="https://www.w3schools.com/js/js_es6.asp" target="_blank">W3Schools section for ECMAScript 6</a></p>
+    <section id="What_is_ECMAScript_6?" class="main-section">
+        <header>
+            <h2>What is ECMAScript 6?</h2>
+        </header>
+        <article>
+            <p>ECMAScript 6 is also known as ES6 and ECMAScript 2015.</p>
+
+            <p>Some people call it JavaScript 6.</p>
+
+            <p>This documentation page will introduce some of the new features in ES6.</p>
+
+            <ul>
+                <li>JavaScript <code class="codespan">let</code></li>
+                <li>JavaScript <code class="codespan">const</code></li>
+                <li>JavaScript Arrow Functions</li>
+                <li>JavaScript Classes</li>
+                <li>Default parameter values</li>
+                <li><code class="codespan">Array.find()</code></li>
+                <li><code class="codespan">Array.findIndex()</code></li>
+                <li>Exponentiation (<code class="codespan">**</code>) (EcmaScript 2016)</li>
+            </ul>
+        </article>
+    </section>
+    <section id="Browser_Support_for_ES6" class="main-section">
+        <header>
+            <h2>Browser Support for ES6</h2>
+        </header>
+    </section>
+    <section id="JavaScript_let" class="main-section">
+        <header>
+            <h2>JavaScript let</h2>
+        </header>
+        <article>
+            <p>The <code class="codespan">let</code> statement allows you to declare a variable with block scope.</p>
+
+            <div class="example">
+                <h4>Example</h4>
+                <code>
+                    var x = 10; <br>
+                    // Here x is 10 <br>
+                    { <br>
+                        &nbsp; let x = 2; <br>
+                        &nbsp; // Here x is 2 <br>
+                    } <br>
+                    // Here x is 10 <br>
+                </code>
+            </div>
+        </article>
+        <footer>
+            <p>Read more about <code class="codespan">let</code> in the <a href="https://www.w3schools.com/js/js_let.asp">JavaScript Let</a> chapter.</p>
+        </footer>
+    </section>
+    <section id="JavaScript_const" class="main-section">
+        <header>
+            <h2>JavaScript const</h2>
+        </header>
+
+        <article>
+            <p>The <code class="codespan">const</code> statement allows you to declare a constant (a JavaScript variable with a constant value).</p>
+
+            <p>Constants are similar to let variables, except that the value cannot be changed.</p>
+
+            <div class="example">
+                <h3>Example</h3>
+                <code>
+                    var x = 10; <br>
+                    // Here x is 10 <br>
+                    { <br>
+                        &nbsp; const x = 2; <br>
+                        &nbsp; // Here x is 2 <br>
+                    } <br>
+                    // Here x is 10 <br>
+                </code>
+            </div>
+        </article>
+        <footer>
+            <p>Read more about <code class="codespan">const</code> in the <a href="https://www.w3schools.com/js/js_const.asp">JavaScript Const</a> chapter.</p>
+        </footer>
+    </section>
+    <section id="Arrow_Functions" class="main-section">
+        <header>
+            <h2>Arrow Functions</h2>
+        </header>
+        <article>
+            <p>Arrow functions allows a short syntax for writing function expressions.</p>
+
+            <p>You don't need the <code class="codespan">function</code> keyword, the <code class="codespan">return</code> keyword, and the <strong>curly brackets</strong>.</p>
+
+            <div class="example">
+                <h3>Example</h3>
+                <code>
+                    // ES5 <br>
+                    var x = function(x, y) { <br>
+                        &nbsp; return x * y; <br>
+                    } <br>
+                    <br>
+                    // ES6 <br>
+                    const x = (x, y) => x * y; <br>
+                </code>
+            </div>
+
+            <p>Arrow functions do not have their own <code class="codespan">this</code>. They are not well suited for defining <strong>object methods</strong>.</p>
+
+            <p>Arrow functions are not hoisted. They must be defined <strong>before</strong> they are used.</p>
+
+            <p>Using <code class="codespan">const</code> is safer than using <code class="codespan">var</code>, because a function expression is always constant value.</p>
+
+            <p>You can only omit the <code class="codespan">return</code> keyword and the curly brackets if the function is a single statement. Because of this, it might be a good habit to always keep them:</p>
+
+            <div class="example">
+                <h3>Example</h3>
+                <code>
+                    const x = (x, y) => { return x * y };
+                </code>
+            </div>
+        </article>
+        <footer>
+            <p>Learn more about Arrow Functions in our <a href="https://www.w3schools.com/js/js_arrow_function.asp">JavaScript Arrow Function</a> chapter.</p>
+        </footer>
+    </section>
+    <section id="Classes" class="main-section">
+        <header>
+            <h2>Classes</h2>
+        </header>
+
+        <article>
+            <p>ES6 introduced classes.</p>
+
+            <p>A class is a type of function, but instead of using the keyword <code class="codespan">function</code> to initiate it, we use the keyword class, and the properties are assigned inside a <code class="codespan">constructor()</code> method.</p>
+            
+            <p>Use the keyword <code class="codespan">class</code> to create a <code class="codespan">class</code>, and always add a constructor method.</p>
+            
+            <p>The constructor method is called each time the class object is initialized.</p>
+            <div class="example">
+                <h3>Example</h3>
+                <p>A simple class definition for a class named "Car":</p>
+                <code>
+                    class Car { <br>
+                        &nbsp; constructor(brand) { <br>
+                            &nbsp; &nbsp; this.carname = brand; <br>
+                        &nbsp; } <br>
+                    } <br>
+                </code>
+            </div>
+
+            <p>Now you can create objects using the Car class:</p>
+            
+            <div class="example">
+                <h3>Example</h3>
+                <p>Create an object called "mycar" based on the Car class:</p>
+                <code>
+                    class Car { <br>
+                        &nbsp; constructor(brand) { <br>
+                            &nbsp; &nbsp; this.carname = brand; <br>
+                        &nbsp; } <br>
+                    } <br>
+                    mycar = new Car("Ford");
+                </code>
+            </div>
+        </article>
+        <footer>
+            <p>Learn more about classes in our <a href="https://www.w3schools.com/js/js_classes.asp">JavaScript Classes</a> chapter.</p>
+        </footer>
+    </section>
+    <section id="Default_Parameter_Values" class="main-section">
+        <header>
+            <h2>Default Parameter Values</h2>
+        </header>
+        <article>
+            <p>ES6 allows function parameters to have default values.</p>
+
+            <div class="example">
+                <h3>Example</h3>
+                <code>
+                    function myFunction(x, y = 10) { <br>
+                        &nbsp; // y is 10 if not passed or undefined <br>
+                        &nbsp; return x + y; <br>
+                    } <br>
+                    myFunction(5); // will return 15
+                </code>
+            </div>
+        </article>
+        <footer>
+            <p>Learn more about classes in our <a href="https://www.w3schools.com/js/js_classes.asp">JavaScript Classes</a> chapter.</p>
+        </footer>
+    </section>
+    <section id="Array.find()" class="main-section">
+        <header>
+            <h2>Array.find()</h2>
+        </header>
+        <article>
+            <p>The <code class="codespan">find()</code> method returns the value of the first array element that passes a test function.</p>
+
+            <p>This example finds (returns the value of ) the first element that is larger than 18:</p>
+
+            <div class="example">
+                <h3>Example</h3>
+                <code>
+                    var numbers = [4, 9, 16, 25, 29]; <br> 
+                    var first = numbers.find(myFunction); <br>
+                    <br>
+                    function myFunction(value, index, array) { <br>
+                        &nbsp; return value > 18; <br>
+                    }
+                </code>
+            </div>
+
+            <p>Note that the function takes 3 arguments:</p>
+
+            <ul>
+                <li>The item value</li>
+                <li>The item index</li>
+                <li>The array itself</li>
+            </ul>
+        </article>
+    </section>
+    <section id="Array.findIndex()" class="main-section">
+        <header>
+            <h2>Array.findIndex()</h2>
+        </header>
+        <article>
+            <p>The <code class="codespan">findIndex()</code> method returns the index of the first array element that passes a test function.</p>
+
+            <p>This example finds the index of the first element that is larger than 18:</p>
+
+            <div class="example">
+                <h3>Example</h3>
+                <code>
+                    var numbers = [4, 9, 16, 25, 29]; <br>
+                    var first = numbers.findIndex(myFunction); <br>
+                    <br>
+                    function myFunction(value, index, array) { <br>
+                        &nbsp; return value > 18; <br>
+                    }
+                </code>
+            </div>
+
+            <p>Note that the function takes 3 arguments:</p>
+
+            <ul>
+                <li>The item value</li>
+                <li>The item index</li>
+                <li>The array itself</li>
+            </ul>
+        </article>
+    </section>
+    <section id="New_Number_Methods" class="main-section">
+        <header>
+            <h2>New Number Methods</h2>
+        </header>
+        <article>
+            <p>ES6 added 2 new methods to the Number object:</p>
+
+            <ul>
+                <li><code class="codespan">Number.isInteger()</code></li>
+                <li><code class="codespan">Number.isSafeInteger()</code></li>
+            </ul>
+
+            <div class="sub-section">
+                <h3>The Number.isInteger() Method</h3>
+
+                <p>The <code class="codespan">Number.isInteger()</code> method returns <code class="codespan">true</code> if the argument is an integer.</p>
+
+                <div class="example">
+                    <h3>Example</h3>
+                    <code>
+                        Number.isInteger(10);        // returns true <br>
+                        Number.isInteger(10.5);      // returns false
+                    </code>
+                </div>
+            </div>
+            <div class="sub-section">
+                <h3>The Number.isSafeInteger() Method</h3>
+
+                <p>A safe integer is an integer that can be exactly represented as a double precision number.</p>
+
+                <p>The <code class="codespan">Number.isSafeInteger()</code> method returns <code class="codespan">true</code> if the argument is a safe integer.</p>
+
+                <div class="example">
+                    <h3>Example</h3>
+                    <code>
+                        Number.isSafeInteger(10);    // returns true <br>
+                        Number.isSafeInteger(12345678901234567890);  // returns false
+                    </code>
+                </div>
+
+                <aside>
+                    <p>Safe integers are all integers from -(2^53 - 1) to +(2^53 - 1).</p>
+                    <p>This is safe: 9007199254740991. This is not safe: 9007199254740992.</p>
+                </aside>
+            </div>
+        </article>
+    </section>
+    <section id="New_Global_Methods" class="main-section">
+        <header>
+            <h2>New Global Methods</h2>
+        </header>
+        <article>
+            <p>ES6 also added 2 new global number methods:</p>
+
+            <ul>
+                <li><code class="codespan">isFinite()</code></li>
+                <li><code class="codespan">isNan()</code></li>
+            </ul>
+
+            <div class="sub-section">
+                <h3>The isFinite() Method</h3>
+
+                <p>The global <code class="codespan">isFinite()</code> method returns <code class="codespan">false</code> if the argument is <code class="codespan">Infinity</code> or <code class="codespan">NaN</code>.</p>
+
+                <p>Otherwise it returns <code class="codespan">true</code>:</p>
+
+                <div class="example">
+                    <h3>Example</h3>
+                    <code>
+                        isFinite(10/0);       // returns false <br>
+                        isFinite(10/1);       // returns true
+                    </code>
+                </div>
+            </div>
+            <div class="sub-section">
+                <h3>The isNaN() Method</h3>
+                
+                <p>The global <code class="codespan">isNaN()</code> method returns <code class="codespan">true</code> if the argument is <code class="codespan">NaN</code>. Otherwise it returns <code class="codespan">false</code>:</p>
+
+                <div class="example">
+                    <h3>Example</h3>
+                    <code>
+                        isNaN("Hello");       // returns true
+                    </code>
+                </div>
+            </div>
+        </article>
+    </section>
+    <section id="Exponentiation_Operator" class="main-section">
+        <header>
+            <h2>Exponentiation Operator</h2>
+        </header>
+        <article>
+            <p>The <strong>exponentiation</strong> operator (<code class="codespan">**</code>) raises the first operand to the power of the second operand.</p>
+
+            <div class="example">
+                <h3>Example</h3>
+                <code>
+                    var x = 5; <br>
+                    var z = x ** 2;          // result is 25
+                </code>
+            </div>
+
+            <p><code class="codespan">x ** y</code> produces the same result as <code class="codespan">Math.pow(x,y)</code>:</p>
+
+            <div class="example">
+                <h3>Example</h3>
+                <code>
+                    var x = 5; <br>
+                    var z = Math.pow(x,2);   // result is 25
+                </code>
+            </div>
+        </article>
+    </section>
+    <footer class="main-footer">
+        <p>Made by <a href="https://maxearn.github.io/">Edgar A. RincóN</a></p>
+    </footer>
+</main>
+
+<script>
+  const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+
+  function switchTheme(e) {
+      if (e.target.checked) {
+          document.documentElement.setAttribute('data-theme', 'dark');
+          localStorage.setItem('theme', 'dark'); 
+      }
+      else {
+          document.documentElement.setAttribute('data-theme', 'light');
+          localStorage.setItem('theme', 'light');
+      }    
+  }
+
+  toggleSwitch.addEventListener('change', switchTheme, false);
+
+  const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
+
+  if (currentTheme) {
+      document.documentElement.setAttribute('data-theme', currentTheme);
+
+      if (currentTheme === 'dark') {
+          toggleSwitch.checked = true;
+      }
+  }
+</script>   
+
+</body>
+</html>
