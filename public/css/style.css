@@ -71,6 +71,24 @@ hr {
   border: 0;
 }
 /* Navigation */
+.menupc {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 767px) {
+  .menupc {
+    display: none;
+  }
+}
+
+.menumobile {
+  padding-left: 40px;
+}
+@media screen and (min-width: 767px) {
+  .menumobile {
+    display: none;
+  }
+}
 #menu {
   padding: 15px;
   transition: all 0.8s;
@@ -95,7 +113,7 @@ hr {
   font-weight: 400;
   padding: 8px 2px;
   border-radius: 0;
-  margin: 9px 20px 0 20px;
+  margin: 9px 10px 0 10px;
 }
 #menu.navbar-default .navbar-nav > li > a:after {
   display: block;
@@ -220,13 +238,20 @@ a:focus,
 }
 .intro h1 {
   font-family: "Raleway", sans-serif;
+  font-size: 6rem;
   color: #fff;
-  font-size: 24px;
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 10px;
 }
+
+@media (max-width: 768px) {
+  .intro h1 {
+    font-size: 3rem;
+  }
+}
+
 .intro h1 span {
   font-weight: 800;
   color: #5ca9fb;

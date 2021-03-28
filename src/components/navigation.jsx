@@ -1,7 +1,10 @@
 export const Navigation = (props) => {
   return (
-    <nav id="menu" className="navbar navbar-default navbar-fixed-top">
-      <div className="container">
+    <nav
+      id="menu"
+      className="navbar navbar-expand-lg navbar-default navbar-fixed-top"
+    >
+      <div>
         <div className="navbar-header">
           <button
             type="button"
@@ -20,61 +23,58 @@ export const Navigation = (props) => {
           </a>{" "}
         </div>
 
-        <div
-          className="collapse navbar-collapse"
-          id="bs-example-navbar-collapse-1"
-        >
+        <div className="menupc">
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a
-                href="#features"
-                data-toggle="collapse"
-                data-target=".collapse"
-              >
-                Features
-              </a>
+              <a href="#features">Features</a>
             </li>
             <li>
-              <a href="#about" data-toggle="collapse" data-target=".collapse">
-                About
-              </a>
+              <a href="#about">About</a>
             </li>
             <li>
-              <a
-                href="#services"
-                data-toggle="collapse"
-                data-target=".collapse"
-              >
-                Services
-              </a>
+              <a href="#services">Services</a>
             </li>
             <li>
-              <a
-                href="#portfolio"
-                data-toggle="collapse"
-                data-target=".collapse"
-              >
-                Gallery
-              </a>
+              <a href="#portfolio">Gallery</a>
             </li>
             <li>
-              <a
-                href="#testimonials"
-                data-toggle="collapse"
-                data-target=".collapse"
-              >
-                Testimonials
-              </a>
+              <a href="#testimonials">Testimonials</a>
             </li>
             <li>
-              <a href="#team" data-toggle="collapse" data-target=".collapse">
-                Team
-              </a>
+              <a href="#team">Team</a>
             </li>
             <li>
-              <a href="#contact" data-toggle="collapse" data-target=".collapse">
-                Contact
-              </a>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div className="menumobile" id="bs-example-navbar-collapse-1">
+          <ul
+            className="nav navbar-nav navbar-right"
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
+          >
+            <li>
+              <a href="#features">Features</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#services">Services</a>
+            </li>
+            <li>
+              <a href="#portfolio">Gallery</a>
+            </li>
+            <li>
+              <a href="#testimonials">Testimonials</a>
+            </li>
+            <li>
+              <a href="#team">Team</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>
