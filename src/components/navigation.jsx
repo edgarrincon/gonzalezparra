@@ -18,33 +18,32 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
-            React
+          <a href="#page-top">
+            <img src="img/GONZALEZPARRA.PNG" alt="logoGPA"></img>
           </a>{" "}
         </div>
-
         <div className="menupc">
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href="#features">Features</a>
+              <a href="#about">NOSTROS</a>
             </li>
             <li>
-              <a href="#about">About</a>
+              <a href="#services">SERVICIOS</a>
             </li>
             <li>
-              <a href="#services">Services</a>
+              <a href="#team">EQUIPO</a>
             </li>
             <li>
-              <a href="#portfolio">Gallery</a>
+              <a href="#features">VALORES</a>
             </li>
             <li>
-              <a href="#testimonials">Testimonials</a>
+              <a href="#testimonials">CLIENTES</a>
             </li>
             <li>
-              <a href="#team">Team</a>
+              <a href="#portfolio">LEYES</a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a href="#contact">CONTACTOS</a>
             </li>
           </ul>
         </div>
@@ -56,25 +55,25 @@ export const Navigation = (props) => {
             data-target="#bs-example-navbar-collapse-1"
           >
             <li>
-              <a href="#features">Features</a>
+              <a href="#about">NOSTROS</a>
             </li>
             <li>
-              <a href="#about">About</a>
+              <a href="#services">SERVICIOS</a>
             </li>
             <li>
-              <a href="#services">Services</a>
+              <a href="#team">EQUIPO</a>
             </li>
             <li>
-              <a href="#portfolio">Gallery</a>
+              <a href="#features">VALORES</a>
             </li>
             <li>
-              <a href="#testimonials">Testimonials</a>
+              <a href="#testimonials">CLIENTES</a>
             </li>
             <li>
-              <a href="#team">Team</a>
+              <a href="#portfolio">LEYES</a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a href="#contact">CONTACTOS</a>
             </li>
           </ul>
         </div>
