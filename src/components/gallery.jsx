@@ -22,7 +22,7 @@ export const Gallery = (props) => {
                   >
                     <div className="hover-text">
                       <h4>
-                        <img src="img/GONZALEZPARRA.PNG" alt="logo"></img>
+                        <img src="img/gplogo.png" alt="logo"></img>
                       </h4>
                     </div>
                     <img

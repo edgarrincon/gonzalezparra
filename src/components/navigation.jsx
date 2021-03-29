@@ -19,7 +19,7 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a href="#page-top">
-            <img src="img/GONZALEZPARRA.PNG" alt="logoGPA"></img>
+            <img src="img/gplogo.png" alt="logoGPA"></img>
           </a>{" "}
         </div>
         <div className="menupc">
