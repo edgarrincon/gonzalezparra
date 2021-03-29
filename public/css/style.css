@@ -278,7 +278,7 @@ header .intro-text {
   padding: 100px 0;
   background: #f6f6f6;
 }
-#features i.fa {
+#features img {
   font-size: 38px;
   margin-bottom: 20px;
   transition: all 0.5s;
@@ -290,6 +290,7 @@ header .intro-text {
   background: var(--main-bg-color);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
+
 /* About Section */
 #about {
   padding: 100px 0;

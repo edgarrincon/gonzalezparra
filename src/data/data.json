@@ -19,31 +19,31 @@
       "icon": "img/icon/boy-girl.svg",
       "alt": "boy",
       "name": "Sistema de Proteccion",
-      "text": "Acciones de interés público para la protección debida a los niños, niñas y adolescentes."
+      "text": "Realizamos acciones de interés para la protección debida a los niños, niñas y adolescentes."
     },
     {
       "icon": "img/icon/company-enterprise.svg",
       "alt": "company",
-      "name": "Derecho Mercantil",
-      "text": "Somos corporativos a los fondos de comercio localizados en la república y en el exterior con intereses  jurídicos dentro de la nación."
+      "name": "Derecho Civil y Mercantil",
+      "text": "Asesoramos a los fondos de comercio localizados en la república y en el exterior con intereses  jurídicos dentro de la nación."
     },
     {
       "icon": "img/icon/supervisor.svg",
       "alt": "supervisor",
       "name": "Derecho Laboral",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "Nuestros expertos pueden ayudarte a gestionar de forma profesional y eficiente tus necesidades en materia laboral."
     },
     {
       "icon": "img/icon/ship.svg",
       "alt": "barco",
       "name": "Derecho Marítimo",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "Analizamos contratos para la explotación buques y  la responsabilidad civil derivada de dichas transiciones."
     },
     {
       "icon": "img/icon/bank-account.svg",
       "alt": "publico",
       "name": "Derecho Público",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "Contratos administrativos ordinarios y de concesiones administrativas de servicios públicos, obras públicas y suministros."
     }
   ],
   "Testimonials": [
@@ -110,22 +110,26 @@
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
+      "icon": "img/icon/ship.svg",
+      "alt": "barco",
       "title": "Lorem ipsum",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
     {
-      "icon": "fa fa-bullhorn",
+      "icon": "img/icon/ship.svg",
+      "alt": "barco",
       "title": "Lorem ipsum",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
     {
-      "icon": "fa fa-group",
+      "icon": "img/icon/ship.svg",
+      "alt": "barco",
       "title": "Lorem ipsum",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
     {
-      "icon": "fa fa-magic",
+      "icon": "img/icon/ship.svg",
+      "alt": "barco",
       "title": "Lorem ipsum",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     }
