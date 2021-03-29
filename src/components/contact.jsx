@@ -37,10 +37,12 @@ export const Contact = (props) => {
           <div className="col-md-8">
             <div className="row">
               <div className="section-title">
-                <h2>Get In Touch</h2>
+                <h2>Contáctanos</h2>
                 <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
+                  Puedes comunicarte con nosotros a través del formulario y
+                  solicitar asesorías, agenda una cita, plantear dudas o
+                  cualquier otro requerimiento, o si lo prefieres puedes
+                  comunicarte por WhatsApps y con gusto te atenderemos.
                 </p>
               </div>
               <form name="sentMessage" onSubmit={handleSubmit}>
@@ -52,7 +54,7 @@ export const Contact = (props) => {
                         id="name"
                         name="name"
                         className="form-control"
-                        placeholder="Name"
+                        placeholder="Nombre"
                         required
                         onChange={handleChange}
                       />
@@ -62,11 +64,11 @@ export const Contact = (props) => {
                   <div className="col-md-6">
                     <div className="form-group">
                       <input
-                        type="email"
-                        id="email"
-                        name="email"
+                        type="lastname"
+                        id="lastname"
+                        name="lastname"
                         className="form-control"
-                        placeholder="Email"
+                        placeholder="Apellido"
                         required
                         onChange={handleChange}
                       />
@@ -78,11 +80,11 @@ export const Contact = (props) => {
                   <div className="col-md-6">
                     <div className="form-group">
                       <input
-                        type="text"
-                        id="name"
-                        name="name"
+                        type="number"
+                        id="subject"
+                        name="subject"
                         className="form-control"
-                        placeholder="Name"
+                        placeholder="Teléfono"
                         required
                         onChange={handleChange}
                       />
@@ -110,7 +112,7 @@ export const Contact = (props) => {
                     id="message"
                     className="form-control"
                     rows="4"
-                    placeholder="Message"
+                    placeholder="Mensaje"
                     required
                     onChange={handleChange}
                   ></textarea>
@@ -118,17 +120,17 @@ export const Contact = (props) => {
                 </div>
                 <div id="success"></div>
                 <button type="submit" className="btn btn-custom btn-lg">
-                  Send Message
+                  Enviar
                 </button>
               </form>
             </div>
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">
             <div className="contact-item">
-              <h3>Contact Info</h3>
+              <h3>Dirección</h3>
               <p>
                 <span>
-                  <i className="fa fa-map-marker"></i> Address
+                  <i className="fa fa-map-marker"></i> Ubícanos
                 </span>
                 {props.data ? props.data.address : "loading"}
               </p>
@@ -136,7 +138,7 @@ export const Contact = (props) => {
             <div className="contact-item">
               <p>
                 <span>
-                  <i className="fa fa-phone"></i> Phone
+                  <i className="fa fa-phone"></i> Teléfono
                 </span>{" "}
                 {props.data ? props.data.phone : "loading"}
               </p>
@@ -144,7 +146,7 @@ export const Contact = (props) => {
             <div className="contact-item">
               <p>
                 <span>
-                  <i className="fa fa-envelope-o"></i> Email
+                  <i className="fa fa-envelope-o"></i> Correo
                 </span>{" "}
                 {props.data ? props.data.email : "loading"}
               </p>
@@ -178,7 +180,7 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2021 Gonzalez Parra Asociados. Develop by{" "}
+            &copy; 2021 Gonzalez Parra & Asociados. Develop by{" "}
             <a href="https://standardsapps.com">Standards Apps</a>
           </p>
         </div>
