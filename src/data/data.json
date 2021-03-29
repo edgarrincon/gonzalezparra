@@ -49,55 +49,40 @@
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "Definitivamente nos han dejado alucinado con el trabajo! Incluso más que con el trabajo...Con el servicio, rapidez, la eficiencia ...Excelente!",
+      "name": "Azafrán Market"
     },
     {
       "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "Queremos felicitarlos porque han interpretado y sabido plasmar al 100% nuestra idea contractual. la idea de las arras nos pareció extraordinario.",
+      "name": "La Cumbre"
     },
     {
       "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "Nos complace decirles que estamos muy satisfechos del trabajo  realizado. Nos gusta mucho la rápida respuesta que le han dado a nuestra empresa, un equipo muy profesional.",
+      "name": "Los Pits"
     }
   ],
   "Team": [
     {
       "img": "img/team/01.jpg",
-      "name": "John Doe",
+      "name": "Ángel Emiro González",
       "job": "Director"
     },
     {
       "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "name": "Edgar Rincón",
+      "job": "Derecho Público"
     },
     {
       "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "name": "Mélvin Hernández",
+      "job": "Derecho Penal"
     },
     {
       "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "name": "Neylis Govea",
+      "job": "Sistema de Protección"
     }
   ],
   "Contact": {
@@ -110,28 +95,28 @@
   },
   "Features": [
     {
-      "icon": "img/icon/ship.svg",
+      "icon": "img/icon/objetivo.svg",
       "alt": "barco",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Misión",
+      "text": "Asesoramos a nuestros clientes de forma cercana y ágil en la solución de sus necesidades legales y de negocio."
     },
     {
-      "icon": "img/icon/ship.svg",
+      "icon": "img/icon/vision.svg",
       "alt": "barco",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Visión",
+      "text": "Nuestra vocación permanente es ser una firma líder, buscando la excelencia de nuestro equipo de abogados."
     },
     {
-      "icon": "img/icon/ship.svg",
-      "alt": "barco",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "img/icon/valores.svg",
+      "alt": "valores",
+      "title": "Valores",
+      "text": "Lealtad => Integridad => Confianza"
     },
     {
-      "icon": "img/icon/ship.svg",
+      "icon": "img/icon/mision.svg",
       "alt": "barco",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Objetivo",
+      "text": "Servir con un alto grado de calidad, siendo responsable al cumplir con su defensa y con un alto nivel ético."
     }
   ]
 }

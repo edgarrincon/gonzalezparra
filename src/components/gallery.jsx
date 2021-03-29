@@ -3,10 +3,10 @@ export const Gallery = (props) => {
     <div id="portfolio" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Gallery</h2>
+          <h2>Galería Legal</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            Compendio de leyes vigentes en la República Bolivariana de
+            Venezuela.
           </p>
         </div>
         <div className="row">
