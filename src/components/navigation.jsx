@@ -48,9 +48,12 @@ export const Navigation = (props) => {
           </ul>
         </div>
 
-        <div className="menumobile" id="bs-example-navbar-collapse-1">
+        <div
+          className="navbar-collapse collapse"
+          id="bs-example-navbar-collapse-1"
+        >
           <ul
-            className="nav navbar-nav navbar-right"
+            className="menumobile nav navbar-nav"
             data-toggle="collapse"
             data-target="#bs-example-navbar-collapse-1"
           >
