@@ -322,12 +322,10 @@ header .intro-text {
   padding: 0;
 }
 #about .about-text li:before {
-  content: "\f00c";
-  font-family: "FontAwesome";
-  color: #5ca9fb;
-  font-size: 11px;
-  font-weight: 300;
+  background: url(../img/icon/blue-check-mark.svg) center center no-repeat;
+  content: " ";
   padding-right: 8px;
+  padding-left: 16px;
 }
 #about img {
   width: 520px;
@@ -635,6 +633,12 @@ label {
   color: #608dfd;
   background: #fff;
 }
+
+.contact-icon {
+  display: flex;
+  margin-bottom: 10px;
+}
+
 /* Footer Section*/
 #footer {
   background: #f6f6f6;

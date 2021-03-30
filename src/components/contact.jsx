@@ -130,7 +130,12 @@ export const Contact = (props) => {
               <h3>Dirección</h3>
               <p>
                 <span>
-                  <i className="fa fa-map-marker"></i> Ubícanos
+                  <img
+                    className="contact-icon"
+                    src="img/icon/map-pin.svg"
+                    alt="map"
+                  ></img>{" "}
+                  Ubícanos
                 </span>
                 {props.data ? props.data.address : "loading"}
               </p>
@@ -138,7 +143,12 @@ export const Contact = (props) => {
             <div className="contact-item">
               <p>
                 <span>
-                  <i className="fa fa-phone"></i> Teléfono
+                  <img
+                    className="contact-icon"
+                    src="img/icon/tel.svg"
+                    alt="tel"
+                  ></img>{" "}
+                  Teléfono
                 </span>{" "}
                 {props.data ? props.data.phone : "loading"}
               </p>
@@ -146,7 +156,12 @@ export const Contact = (props) => {
             <div className="contact-item">
               <p>
                 <span>
-                  <i className="fa fa-envelope-o"></i> Correo
+                  <img
+                    className="contact-icon"
+                    src="img/icon/pink-mail.svg"
+                    alt="mail"
+                  ></img>{" "}
+                  Correo
                 </span>{" "}
                 {props.data ? props.data.email : "loading"}
               </p>
