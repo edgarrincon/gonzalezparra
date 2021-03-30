@@ -173,17 +173,20 @@ export const Contact = (props) => {
                 <ul>
                   <li>
                     <a href={props.data ? props.data.facebook : "/"}>
-                      <i className="fa fa-facebook"></i>
+                      <img src="img/icon/tel.svg" alt="facebook"></img>
                     </a>
                   </li>
                   <li>
                     <a href={props.data ? props.data.twitter : "/"}>
-                      <i className="fa fa-twitter"></i>
+                      <img
+                        src="img/icon/map-pin.svg"
+                        alt="twitter-round-lines"
+                      ></img>
                     </a>
                   </li>
                   <li>
                     <a href={props.data ? props.data.youtube : "/"}>
-                      <i className="fa fa-youtube"></i>
+                      <img src="img/icon/whatsapp.svg" alt="mail"></img>
                     </a>
                   </li>
                 </ul>
