@@ -154,7 +154,7 @@ export const Contact = (props) => {
               </p>
             </div>
             <div className="contact-item">
-              <p>
+              <a href="https://uxwing.com/twitter-round-line-icon/">
                 <span>
                   <img
                     className="contact-icon"
@@ -164,7 +164,7 @@ export const Contact = (props) => {
                   Correo
                 </span>{" "}
                 {props.data ? props.data.email : "loading"}
-              </p>
+              </a>
             </div>
           </div>
           <div className="col-md-12">
@@ -173,13 +173,16 @@ export const Contact = (props) => {
                 <ul>
                   <li>
                     <a href={props.data ? props.data.facebook : "/"}>
-                      <img src="img/icon/tel.svg" alt="facebook"></img>
+                      <img
+                        src="img/icon/twitter-round-line.svg"
+                        alt="facebook"
+                      ></img>
                     </a>
                   </li>
                   <li>
                     <a href={props.data ? props.data.twitter : "/"}>
                       <img
-                        src="img/icon/map-pin.svg"
+                        src="img/icon/instagram-round-line.svg"
                         alt="twitter-round-lines"
                       ></img>
                     </a>

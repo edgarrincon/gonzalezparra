@@ -397,6 +397,7 @@ header .intro-text {
 /* Portfolio Section */
 #portfolio {
   padding: 100px 0;
+  background: #f6f6f6;
 }
 .portfolio-item {
   margin: 1px -15px 0 -14px;
@@ -452,7 +453,6 @@ header .intro-text {
 /* Testimonials Section */
 #testimonials {
   padding: 100px 0;
-  background: #f6f6f6;
 }
 #testimonials i {
   color: #e6e6e6;
@@ -603,10 +603,10 @@ label {
 }
 #contact .contact-item span {
   color: rgba(255, 255, 255, 1);
-  margin-bottom: 10px;
+  margin: 10px 20px;
   display: block;
 }
-#contact .contact-item i.fa {
+#contact .contact-item img {
   margin-right: 10px;
 }
 #contact .social {
@@ -619,19 +619,15 @@ label {
   display: inline-block;
   margin: 0 20px;
 }
-#contact .social i.fa {
-  font-size: 22px;
-  width: 48px;
-  height: 48px;
-  padding: 12px 0;
-  border: 2px solid #fff;
-  color: #fff;
+
+#contact .social img:hover {
+  background: linear-gradient(
+    to right,
+    rgba(99, 114, 255, 0.8) 0%,
+    rgba(92, 169, 251, 0.8) 100%
+  );
   border-radius: 50%;
-  transition: all 0.3s;
-}
-#contact .social i.fa:hover {
-  color: #608dfd;
-  background: #fff;
+  transition: all 0.3s ease-out;
 }
 
 .contact-icon {
