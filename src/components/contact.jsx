@@ -127,7 +127,7 @@ export const Contact = (props) => {
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">
             <div className="contact-item">
-              <h3>Dirección</h3>
+              <h3>Ubícanos</h3>
               <p>
                 <span>
                   <img
@@ -135,7 +135,7 @@ export const Contact = (props) => {
                     src="img/icon/map-pin.svg"
                     alt="map"
                   ></img>{" "}
-                  Ubícanos
+                  Dirección:
                 </span>
                 {props.data ? props.data.address : "loading"}
               </p>
@@ -148,7 +148,7 @@ export const Contact = (props) => {
                     src="img/icon/tel.svg"
                     alt="tel"
                   ></img>{" "}
-                  Teléfono
+                  Teléfono:
                 </span>{" "}
                 {props.data ? props.data.phone : "loading"}
               </p>
@@ -161,7 +161,7 @@ export const Contact = (props) => {
                     src="img/icon/pink-mail.svg"
                     alt="mail"
                   ></img>{" "}
-                  Correo
+                  Correo:
                 </span>{" "}
                 {props.data ? props.data.email : "loading"}
               </a>
