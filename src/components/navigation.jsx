@@ -78,6 +78,11 @@ export const Navigation = (props) => {
             <li>
               <a href="#contact">CONTACTOS</a>
             </li>
+            <li>
+              <a href="#contact">
+                <img src="img/icon/whatsapp-color.svg" alt="whatsapp"></img>
+              </a>
+            </li>
           </ul>
         </div>
       </div>
