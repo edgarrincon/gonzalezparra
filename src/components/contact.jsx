@@ -131,7 +131,7 @@ export const Contact = (props) => {
                 <span>
                   <img
                     className="contact-icon"
-                    src="img/icon/map-pin.svg"
+                    src="img/icon/google-map.svg"
                     alt="map"
                   ></img>{" "}
                   Dirección:
@@ -144,7 +144,7 @@ export const Contact = (props) => {
                 <span>
                   <img
                     className="contact-icon"
-                    src="img/icon/tel.svg"
+                    src="img/icon/calling.svg"
                     alt="tel"
                   ></img>{" "}
                   Teléfono:
@@ -188,7 +188,10 @@ export const Contact = (props) => {
                   </li>
                   <li>
                     <a href={props.data ? props.data.youtube : "/"}>
-                      <img src="img/icon/whatsapp.svg" alt="mail"></img>
+                      <img
+                        src="img/icon/whatsapp-round-line.svg"
+                        alt="mail"
+                      ></img>
                     </a>
                   </li>
                 </ul>

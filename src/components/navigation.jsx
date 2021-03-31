@@ -79,8 +79,13 @@ export const Navigation = (props) => {
               <a href="#contact">CONTACTOS</a>
             </li>
             <li>
-              <a href="#contact">
-                <img src="img/icon/whatsapp-color.svg" alt="whatsapp"></img>
+              <a href="https://wa.me/+13058429523?text=Hola.%20Estoy%20interesado%20en%20sus%20servicios:%20">
+                Comunícate
+                <img
+                  className="btn-whatsapp-pulse"
+                  src="img/icon/whatsapp.svg"
+                  alt="whatsapp"
+                ></img>
               </a>
             </li>
           </ul>
