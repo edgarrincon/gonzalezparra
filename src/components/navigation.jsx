@@ -83,7 +83,7 @@ export const Navigation = (props) => {
                 Comunícate
                 <img
                   className="btn-whatsapp-pulse"
-                  src="img/icon/whatsapp.svg"
+                  src="img/icon/whatsapp-color.svg"
                   alt="whatsapp"
                 ></img>
               </a>
