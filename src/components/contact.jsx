@@ -131,7 +131,7 @@ export const Contact = (props) => {
                 <span>
                   <img
                     className="contact-icon"
-                    src="img/icon/google-map.svg"
+                    src="img/icon/address-location.svg"
                     alt="map"
                   ></img>{" "}
                   Dirección:
