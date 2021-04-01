@@ -19,7 +19,7 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a href="#page-top">
-            <img src="img/gplogo.png" alt="logoGPA"></img>
+            <img src="img/logoGPA.jpg" alt="logoGPA"></img>
           </a>{" "}
         </div>
         <div className="menupc">
@@ -83,7 +83,7 @@ export const Navigation = (props) => {
                 Comunícate
                 <img
                   className="btn-whatsapp-pulse"
-                  src="img/icon/whatsapp-color.svg"
+                  src="img/icon/whatsapp.svg"
                   alt="whatsapp"
                 ></img>
               </a>
