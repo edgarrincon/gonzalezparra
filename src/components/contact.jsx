@@ -131,7 +131,7 @@ export const Contact = (props) => {
           <div className="col-md-3 col-md-offset-1 contact-info">
             <Fade right duration={1000} delay={600} distance="30px">
               <div className="contact-item">
-                <a href="https://uxwing.com/twitter-round-line-icon/">
+                <a href="https://goo.gl/maps/v5KoUxD4qk4wpxYu8">
                   <p>
                     <span>
                       <img
@@ -146,7 +146,7 @@ export const Contact = (props) => {
                 </a>
               </div>
               <div className="contact-item">
-                <a href="https://uxwing.com/twitter-round-line-icon/">
+                <a href="tel:+584246132492">
                   <p>
                     <span>
                       <img
@@ -161,7 +161,7 @@ export const Contact = (props) => {
                 </a>
               </div>
               <div className="contact-item">
-                <a href="https://uxwing.com/twitter-round-line-icon/">
+                <a href="mailto:bsirailing@gmail.com">
                   <span>
                     <img
                       className="contact-icon"
