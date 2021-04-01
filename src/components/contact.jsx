@@ -1,5 +1,6 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
+import Fade from "react-reveal/Fade";
 
 const initialState = {
   name: "",
@@ -37,13 +38,15 @@ export const Contact = (props) => {
           <div className="col-md-8">
             <div className="row">
               <div className="section-title">
-                <h2>Contáctanos</h2>
-                <p>
-                  Puedes comunicarte con nosotros a través del formulario y
-                  solicitar asesorías, agenda una cita, plantear dudas o
-                  cualquier otro requerimiento, o si lo prefieres puedes
-                  comunicarte por WhatsApps y con gusto te atenderemos.
-                </p>
+                <Fade left duration={1000} delay={600} distance="30px">
+                  <h2>Contáctanos</h2>
+                  <p>
+                    Puedes comunicarte con nosotros a través del formulario y
+                    solicitar asesorías, agenda una cita, plantear dudas o
+                    cualquier otro requerimiento, o si lo prefieres puedes
+                    comunicarte por WhatsApps y con gusto te atenderemos.
+                  </p>
+                </Fade>
               </div>
               <form name="sentMessage" onSubmit={handleSubmit}>
                 <div className="row">
@@ -126,75 +129,83 @@ export const Contact = (props) => {
             </div>
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">
-            <div className="contact-item">
-              <p>
-                <span>
-                  <img
-                    className="contact-icon"
-                    src="img/icon/address-location.svg"
-                    alt="map"
-                  ></img>{" "}
-                  Dirección:
-                </span>
-                {props.data ? props.data.address : "loading"}
-              </p>
-            </div>
-            <div className="contact-item">
-              <p>
-                <span>
-                  <img
-                    className="contact-icon"
-                    src="img/icon/calling.svg"
-                    alt="tel"
-                  ></img>{" "}
-                  Teléfono:
-                </span>{" "}
-                {props.data ? props.data.phone : "loading"}
-              </p>
-            </div>
-            <div className="contact-item">
-              <a href="https://uxwing.com/twitter-round-line-icon/">
-                <span>
-                  <img
-                    className="contact-icon"
-                    src="img/icon/pink-mail.svg"
-                    alt="mail"
-                  ></img>{" "}
-                  Correo:
-                </span>{" "}
-                {props.data ? props.data.email : "loading"}
-              </a>
-            </div>
+            <Fade right duration={1000} delay={600} distance="30px">
+              <div className="contact-item">
+                <a href="https://uxwing.com/twitter-round-line-icon/">
+                  <p>
+                    <span>
+                      <img
+                        className="contact-icon"
+                        src="img/icon/address-location.svg"
+                        alt="map"
+                      ></img>{" "}
+                      Dirección:
+                    </span>
+                    {props.data ? props.data.address : "Cargando..."}
+                  </p>
+                </a>
+              </div>
+              <div className="contact-item">
+                <a href="https://uxwing.com/twitter-round-line-icon/">
+                  <p>
+                    <span>
+                      <img
+                        className="contact-icon"
+                        src="img/icon/calling.svg"
+                        alt="tel"
+                      ></img>{" "}
+                      Teléfono:
+                    </span>{" "}
+                    {props.data ? props.data.phone : "Cargando..."}
+                  </p>
+                </a>
+              </div>
+              <div className="contact-item">
+                <a href="https://uxwing.com/twitter-round-line-icon/">
+                  <span>
+                    <img
+                      className="contact-icon"
+                      src="img/icon/pink-mail.svg"
+                      alt="mail"
+                    ></img>{" "}
+                    Correo:
+                  </span>{" "}
+                  {props.data ? props.data.email : "Cargando..."}
+                </a>
+              </div>
+            </Fade>
           </div>
           <div className="col-md-12">
             <div className="row">
               <div className="social">
-                <ul>
-                  <li>
-                    <a href={props.data ? props.data.facebook : "/"}>
-                      <img
-                        src="img/icon/twitter-round-line.svg"
-                        alt="facebook"
-                      ></img>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.twitter : "/"}>
-                      <img
-                        src="img/icon/instagram-round-line.svg"
-                        alt="twitter-round-lines"
-                      ></img>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.youtube : "/"}>
-                      <img
-                        src="img/icon/whatsapp-round-line.svg"
-                        alt="mail"
-                      ></img>
-                    </a>
-                  </li>
-                </ul>
+                <Fade bottom duration={1000} delay={600} distance="30px">
+                  <ul>
+                    <li>
+                      <a href={props.data ? props.data.twitter : "/"}>
+                        <img
+                          src="img/icon/twitter-round-line.svg"
+                          alt="twitter"
+                        ></img>
+                      </a>
+                    </li>
+                    <li>
+                      <a href={props.data ? props.data.instagram : "/"}>
+                        <img
+                          src="img/icon/instagram-round-line.svg"
+                          alt="instagram-round-lines"
+                        ></img>
+                      </a>
+                    </li>
+                    <li>
+                      <a href={props.data ? props.data.whatsapp : "/"}>
+                        <img
+                          src="img/icon/whatsapp-round-line.svg"
+                          alt="WhatsApp"
+                        ></img>
+                      </a>
+                    </li>
+                  </ul>
+                </Fade>
               </div>
             </div>
           </div>

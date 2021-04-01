@@ -19,7 +19,7 @@ export const About = (props) => {
             <Fade right duration={1000} delay={600} distance="30px">
               <div className="about-text">
                 <h2>Nosotros</h2>
-                <p>{props.data ? props.data.paragraph : "loading..."}</p>
+                <p>{props.data ? props.data.paragraph : "Cargando..."}</p>
                 <h3>¿Por qué escogernos?</h3>
                 <div className="list-style">
                   <div className="col-lg-6 col-sm-6 col-xs-6">
@@ -28,7 +28,7 @@ export const About = (props) => {
                         ? props.data.Why.map((d, i) => (
                             <li key={`${d}-${i}`}>{d}</li>
                           ))
-                        : "loading"}
+                        : "Cargando..."}
                     </ul>
                   </div>
                   <div className="col-lg-6 col-sm-6 col-xs-6">
@@ -37,7 +37,7 @@ export const About = (props) => {
                         ? props.data.Why2.map((d, i) => (
                             <li key={`${d}-${i}`}> {d}</li>
                           ))
-                        : "loading"}
+                        : "lCargando..."}
                     </ul>
                   </div>
                 </div>

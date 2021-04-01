@@ -11,37 +11,37 @@
   "Services": [
     {
       "icon": "img/icon/criminal-custody.svg",
-      "alt": "jail",
+      "altIcon": "jail",
       "name": "Derecho Penal",
       "text": "Asistimos a los sujetos procesales en la fase preparatoria, intermedia, el juicio oral y la fase de ejecución penal."
     },
     {
       "icon": "img/icon/boy-girl.svg",
-      "alt": "boy",
+      "altIcon": "boy",
       "name": "Sistema de Proteccion",
       "text": "Realizamos acciones de interés para la protección debida a los niños, niñas y adolescentes."
     },
     {
       "icon": "img/icon/company-enterprise.svg",
-      "alt": "company",
+      "altIcon": "company",
       "name": "Derecho Civil y Mercantil",
       "text": "Asesoramos a los fondos de comercio localizados en la república y en el exterior con intereses  jurídicos dentro de la nación."
     },
     {
       "icon": "img/icon/supervisor.svg",
-      "alt": "supervisor",
+      "altIcon": "supervisor",
       "name": "Derecho Laboral",
       "text": "Nuestros expertos pueden ayudarte a gestionar de forma profesional y eficiente tus necesidades en materia laboral."
     },
     {
       "icon": "img/icon/ship.svg",
-      "alt": "barco",
+      "altIcon": "barco",
       "name": "Derecho Marítimo",
       "text": "Analizamos contratos para la explotación buques y  la responsabilidad civil derivada de dichas transiciones."
     },
     {
       "icon": "img/icon/bank-account.svg",
-      "alt": "publico",
+      "altIcon": "publico",
       "name": "Derecho Público",
       "text": "Contratos administrativos ordinarios y de concesiones administrativas de servicios públicos, obras públicas y suministros."
     }
@@ -50,73 +50,80 @@
     {
       "img": "img/testimonials/01.jpg",
       "text": "Definitivamente nos han dejado alucinado con el trabajo! Incluso más que con el trabajo...Con el servicio, rapidez, la eficiencia ...Excelente!",
-      "name": "Azafrán Market"
+      "name": "Azafrán Market",
+      "altTestimonial": "Azafrán Market"
     },
     {
       "img": "img/testimonials/02.jpg",
       "text": "Queremos felicitarlos porque han interpretado y sabido plasmar al 100% nuestra idea contractual. la idea de las arras nos pareció extraordinario.",
-      "name": "La Cumbre"
+      "name": "La Cumbre",
+      "altTestimonial": "La Cumbre"
     },
     {
       "img": "img/testimonials/03.jpg",
       "text": "Nos complace decirles que estamos muy satisfechos del trabajo  realizado. Nos gusta mucho la rápida respuesta que le han dado a nuestra empresa, un equipo muy profesional.",
-      "name": "Los Pits"
+      "name": "Los Pits",
+      "altTestimonial": "Los pits"
     }
   ],
   "Team": [
     {
       "img": "img/team/01.jpg",
       "name": "Ángel Emiro González",
-      "job": "Director"
+      "job": "Director",
+      "altTeam": "Chicharron"
     },
     {
       "img": "img/team/02.jpg",
       "name": "Edgar Rincón",
-      "job": "Derecho Público"
+      "job": "Derecho Público",
+      "altTeam": "Edgar"
     },
     {
       "img": "img/team/03.jpg",
       "name": "Mélvin Hernández",
-      "job": "Derecho Penal"
+      "job": "Derecho Penal",
+      "altTeam": "Melvin"
     },
     {
       "img": "img/team/04.jpg",
       "name": "Neylis Govea",
-      "job": "Sistema de Protección"
+      "job": "Sistema de Protección",
+      "altTeam": "Ney"
     }
   ],
   "Contact": {
     "address": "Calle 71 con av 3G sector Bellas Artes, Maracaibo - Zulia",
     "phone": "+584246132492",
     "email": "gonzalezparra@gmail.com",
-    "facebook": "fb.com",
+    "instagram": "fb.com",
     "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "whatsapp": "youtube.com"
   },
   "Features": [
     {
-      "icon": "img/icon/objetivo.svg",
-      "alt": "barco",
+      "icon": "img/icon/mision.svg",
+      "altFeatures": "Mision",
       "title": "Misión",
       "text": "Asesoramos a nuestros clientes de forma cercana y ágil en la solución de sus necesidades legales y de negocio."
     },
     {
       "icon": "img/icon/vision.svg",
-      "alt": "barco",
+      "altFeatures": "Vision",
       "title": "Visión",
       "text": "Nuestra vocación permanente es ser una firma líder, buscando la excelencia de nuestro equipo de abogados."
     },
     {
       "icon": "img/icon/valores.svg",
-      "alt": "valores",
+      "altFeatures": "valores",
       "title": "Valores",
-      "text": "Lealtad => Integridad => Confianza"
+      "text": "LealtFeaturesad => Integridad => Confianza"
     },
     {
-      "icon": "img/icon/mision.svg",
-      "alt": "barco",
+      "icon": "img/icon/objetivo.svg",
+      "altFeatures": "objetivo",
       "title": "Objetivo",
-      "text": "Servir con un alto grado de calidad, siendo responsable al cumplir con su defensa y con un alto nivel ético."
+      "text": "Servir con un altFeatureso grado de calidad, siendo responsable al cumplir con su defensa y con un alto nivel ético."
     }
   ]
 }
