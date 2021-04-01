@@ -132,10 +132,10 @@ export const Contact = (props) => {
             <Fade right duration={1000} delay={600} distance="30px">
               <p>
                 Para ir a nuestras oficinas, llamarnos o enviar un correo, haz
-                clic en los iconos.
+                clic en el icono.
               </p>
               <div className="contact-item">
-                <a href="https://goo.gl/maps/v5KoUxD4qk4wpxYu8">
+                <a href="https://goo.gl/maps/u4Qp7vvX2byQzm7D9">
                   <p>
                     <span>
                       <img
