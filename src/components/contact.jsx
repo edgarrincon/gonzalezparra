@@ -130,6 +130,10 @@ export const Contact = (props) => {
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">
             <Fade right duration={1000} delay={600} distance="30px">
+              <p>
+                Para ir a nuestras oficinas, llamarnos o enviar un correo, haz
+                clic en los iconos.
+              </p>
               <div className="contact-item">
                 <a href="https://goo.gl/maps/v5KoUxD4qk4wpxYu8">
                   <p>
@@ -139,7 +143,7 @@ export const Contact = (props) => {
                         src="img/icon/address-location.svg"
                         alt="map"
                       ></img>{" "}
-                      Dirección: Click para Ir
+                      Dirección:
                     </span>
                     {props.data ? props.data.address : "Cargando..."}
                   </p>
@@ -154,7 +158,7 @@ export const Contact = (props) => {
                         src="img/icon/calling.svg"
                         alt="tel"
                       ></img>{" "}
-                      Teléfono: Click para Llamar
+                      Teléfono:
                     </span>{" "}
                     {props.data ? props.data.phone : "Cargando..."}
                   </p>
@@ -167,9 +171,11 @@ export const Contact = (props) => {
                       className="contact-icon"
                       src="img/icon/pink-mail.svg"
                       alt="mail"
-                    ></img>{" "}
-                    Correo: Click para Mail
-                  </span>{" "}
+                    ></img>
+                    {""}
+                    Correo:
+                  </span>
+                  {""}
                   {props.data ? props.data.email : "Cargando..."}
                 </a>
               </div>
