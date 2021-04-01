@@ -139,7 +139,7 @@ export const Contact = (props) => {
                         src="img/icon/address-location.svg"
                         alt="map"
                       ></img>{" "}
-                      Dirección:
+                      Dirección: Click para Ir
                     </span>
                     {props.data ? props.data.address : "Cargando..."}
                   </p>
@@ -154,7 +154,7 @@ export const Contact = (props) => {
                         src="img/icon/calling.svg"
                         alt="tel"
                       ></img>{" "}
-                      Teléfono:
+                      Teléfono: Click para Llamar
                     </span>{" "}
                     {props.data ? props.data.phone : "Cargando..."}
                   </p>
@@ -168,7 +168,7 @@ export const Contact = (props) => {
                       src="img/icon/pink-mail.svg"
                       alt="mail"
                     ></img>{" "}
-                    Correo:
+                    Correo: Click para Mail
                   </span>{" "}
                   {props.data ? props.data.email : "Cargando..."}
                 </a>

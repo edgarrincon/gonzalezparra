@@ -89,7 +89,7 @@
       "img": "img/team/04.jpg",
       "name": "Neylis Govea",
       "job": "Sistema de Protección",
-      "altTeam": "Ney"
+      "altTeam": "Neylis"
     }
   ],
   "Contact": {
@@ -102,6 +102,12 @@
   },
   "Features": [
     {
+      "icon": "img/icon/valores.svg",
+      "altFeatures": "valores",
+      "title": "Valores",
+      "text": "#Lealtad  #Integridad #Confianza"
+    },
+    {
       "icon": "img/icon/mision.svg",
       "altFeatures": "Mision",
       "title": "Misión",
@@ -113,17 +119,12 @@
       "title": "Visión",
       "text": "Nuestra vocación permanente es ser una firma líder, buscando la excelencia de nuestro equipo de abogados."
     },
-    {
-      "icon": "img/icon/valores.svg",
-      "altFeatures": "valores",
-      "title": "Valores",
-      "text": "LealtFeaturesad => Integridad => Confianza"
-    },
+
     {
       "icon": "img/icon/objetivo.svg",
       "altFeatures": "objetivo",
       "title": "Objetivo",
-      "text": "Servir con un altFeatureso grado de calidad, siendo responsable al cumplir con su defensa y con un alto nivel ético."
+      "text": "Servir con un alto grado de calidad, siendo responsable al cumplir con su defensa y con un alto nivel ético."
     }
   ]
 }
