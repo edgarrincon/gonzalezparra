@@ -4,11 +4,15 @@ import Fade from "react-reveal/Fade";
 
 const initialState = {
   name: "",
+  lastname: "",
+  tel: "",
   email: "",
   message: "",
 };
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState);
+  const [{ name, lastname, tel, email, message }, setState] = useState(
+    initialState
+  );
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -18,9 +22,9 @@ export const Contact = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(name, email, message);
+    console.log(name, lastname, tel, email, message);
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_USER_ID")
+      .sendForm("GMAIL", "TEMPLATE1", e.target, "user_oE8cWTx4JGX5goWBxthrf")
       .then(
         (result) => {
           console.log(result.text);
@@ -30,6 +34,8 @@ export const Contact = (props) => {
           console.log(error.text);
         }
       );
+    alert("Mil Gracias por contactarnos!!! pronto le responderemos");
+    e.target.reset();
   };
   return (
     <div>
@@ -67,7 +73,7 @@ export const Contact = (props) => {
                   <div className="col-md-6">
                     <div className="form-group">
                       <input
-                        type="lastname"
+                        type="text"
                         id="lastname"
                         name="lastname"
                         className="form-control"
@@ -84,8 +90,8 @@ export const Contact = (props) => {
                     <div className="form-group">
                       <input
                         type="number"
-                        id="subject"
-                        name="subject"
+                        id="tel"
+                        name="tel"
                         className="form-control"
                         placeholder="Teléfono"
                         required
