@@ -69,7 +69,7 @@
   "Team": [
     {
       "img": "img/team/01.jpg",
-      "name": "Ángel Emiro González",
+      "name": "Carlos Beltran",
       "job": "Director",
       "altTeam": "Chicharron"
     },
@@ -81,19 +81,19 @@
     },
     {
       "img": "img/team/03.jpg",
-      "name": "Mélvin Hernández",
+      "name": "Felix Hernández",
       "job": "Derecho Penal",
       "altTeam": "Melvin"
     },
     {
       "img": "img/team/04.jpg",
-      "name": "Neylis Govea",
+      "name": "Nels Guberman",
       "job": "Sistema de Protección",
-      "altTeam": "Neylis Govea"
+      "altTeam": "Ney"
     }
   ],
   "Contact": {
-    "address": "Calle 71 con av 3G sector Bellas Artes, Maracaibo - Zulia",
+    "address": "Calle 70 con av 5G sector Bellarus, Maracaibo - Zulia",
     "phone": "+584246132492",
     "email": "abgonzalezparra@gmail.com",
     "instagram": "https://www.instagram.com/abgonzlezparra/",

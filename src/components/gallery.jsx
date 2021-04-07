@@ -122,59 +122,6 @@ export const Gallery = (props) => {
                   </div>
                 </div>
               </div>
-
-              <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
-                  <div className="hover-bg">
-                    {" "}
-                    <a href="https://venezuela.justia.com/federales/codigos/codigo-organico-procesal-penal/gdoc/">
-                      <div className="hover-text">
-                        <img src="img/logoGPA.png" alt="logo"></img>
-                      </div>{" "}
-                      <img
-                        src="img/portfolio/04-small.jpg"
-                        className="img-responsive img-gallery"
-                        alt="Project Title"
-                      />
-                    </a>{" "}
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
-                  <div className="hover-bg">
-                    {" "}
-                    <a href="https://venezuela.justia.com/federales/codigos/reforma-del-codigo-penal/gdoc/">
-                      <div className="hover-text">
-                        <img src="img/logoGPA.png" alt="logo"></img>
-                      </div>{" "}
-                      <img
-                        src="img/portfolio/05-small.jpg"
-                        className="img-responsive img-gallery"
-                        alt="Project Title"
-                      />
-                    </a>{" "}
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
-                  <div className="hover-bg">
-                    {" "}
-                    <a href="https://venezuela.justia.com/federales/codigos/codigo-de-procedimiento-civil/gdoc/">
-                      <div className="hover-text">
-                        <img src="img/logoGPA.png" alt="logo"></img>
-                      </div>{" "}
-                      <img
-                        src="img/portfolio/03-small.jpg"
-                        className="img-responsive img-gallery"
-                        alt="Project Title"
-                      />
-                    </a>{" "}
-                  </div>
-                </div>
-              </div>
             </Fade>
           </div>
         </div>
