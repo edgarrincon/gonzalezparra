@@ -68,23 +68,32 @@
   ],
   "Team": [
     {
+      "img": "img/team/01.jpg",
       "name": "Angel González",
       "job": "Director",
       "altTeam": "Chicharron"
     },
     {
+      "img": "img/team/02.jpg",
       "name": "Edgar Rincón",
       "job": "Derecho Público",
       "altTeam": "Edgar"
     },
     {
+      "img": "img/team/03.jpg",
       "name": "Melvin Hernández",
       "job": "Derecho Penal",
       "altTeam": "Melvin"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Neylis Govea",
+      "job": "Sistema de Protección",
+      "altTeam": "NEylis"
     }
   ],
   "Contact": {
-    "address": "Calle 70 con av 5G, Maracaibo - Zulia",
+    "address": "Calle 70 con av 3G sector, Maracaibo - Zulia",
     "phone": "+584146699384",
     "email": "abgonzalezparra@gmail.com",
     "instagram": "https://www.instagram.com/abgonzlezparra/",
