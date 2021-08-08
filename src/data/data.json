@@ -68,19 +68,16 @@
   ],
   "Team": [
     {
-      "img": "img/team/01.jpg",
       "name": "Angel González",
       "job": "Director",
       "altTeam": "Chicharron"
     },
     {
-      "img": "img/team/02.jpg",
       "name": "Edgar Rincón",
       "job": "Derecho Público",
       "altTeam": "Edgar"
     },
     {
-      "img": "img/team/03.jpg",
       "name": "Melvin Hernández",
       "job": "Derecho Penal",
       "altTeam": "Melvin"
